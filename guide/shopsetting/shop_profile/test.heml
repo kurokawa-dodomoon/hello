@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>出品ステータス</title>
+        <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../static/css/style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="../../static/js/js.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col third-link">
+                                <p class="linked">出品ステータス</p>
+                            </div>
+                            <div class="col third-link">
+                                <p><a href="shopInfo.html">店舗情報</a></p>
+                            </div>
+                            <div class="col third-link">
+                                <p><a href="payment.html">決済方法</a></p>
+                            </div>
+                            <div class="col third-link">  
+                                <p><a href="delivery.html">配送方法・送料</a></p>
+                            </div>
+                        </div>
+                        <!-- 説明 -->
+                        <p class="content-descripiton">ここでは、[店舗ステータス変更機能]を用いて、お客様がお店にアクセスできる[出品中]と、アクセスできない[改装中]を切り替える方法についてご説明します。</p>
+                        <!-- マニュアル -->
+                        <div class="tdmc-breadcrumb">
+                            <ol class="element4">
+                                <li class="step-1 icon-01">店舗設定</li>
+                                <li class="step-2">店舗基本情報設定</li>
+                                <li class="last-step">出品ステータス</li>
+                            </ol>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-5"><img src="../../static/images/shopsetting/shop_profile/itemstatus.png" class="img-fluid" alt="出品ステータス"></div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-4">
+                            <p></p>
+                            <ur>
+                                <li>ユーザーにご案内する店舗情報は、[出品ステータス]の編集画面から確認、編集できます。</li>
+                                <li>TDMC[店舗設定]から[店舗基本情報設定]の中[出品ステータス]に遷移し、編集してください。</li>
+                            </ur>
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>	
+                        <p class="content-title">
+                            <span>STEP1 店舗名ステータス変更依頼画面を開く</span>
+                        </p>
+                        <li>現在のステータスを確認し、変更を行ってください。アクセスできない[改装中]/[停止中]を切り替える方法について説明します。</li>
+						<p></p>
+						<li>[店舗設定]から[店舗基本情報設定]の編集メインメニューの[出品ステータス]をクリックします。通常は出品中となっているので、改装中にしたい場合は[改装中]/[停止中]をチェックします。</li>
+                        <div class="content-img">
+                            <img src="../../static/images/shopsetting/shop_profile/itemstatus1.png" class="img-fluid" alt="Step2">
+                        </div>
+
+                        
+                        <svg viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="40,4 60,4 50,8" style="fill:rgba(194, 197, 204, 0.849);"/>
+                        </svg>
+                        <p class="content-title">
+                        <span>STEP2 変更したいステータスを選択し、[保存]ボタンをクリックする。</span>
+                        </p>
+                        <div class="content-img">
+                            <img src="../../static/images/shopsetting/shop_profile/itemstatus2.png" class="img-fluid" alt="Step2">
+                        </div>
+                        <p class="content-title">
+                        <span>変更完了</span>
+                        </p>
+                        <li>店舗ステータスとは、店舗の状態を指します。大幅なリニューアルや、商品の入れ替え、価格の大幅見直しなどで一時的にお客様にアクセスしていただきたくない、お買い物をしていただきたくない時に[改装中]に変更して作業を行います。</li>
+						<p></p>
+						<li>家族の急病、悪天候、休暇など、何らかの理由で注文の出荷ができない場合は、出品ステータスを[停止中]に変更できます。</li>
+                        <footer>
+                            <div id="scroll-up">
+								<a href="#">UP</a>
+							</div>
+                            <div class="footer">
+                                <p>ガイドラインID：ID000040018</p>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <p>カテゴリ：</p>
+                                        <li class="breadcrumb-item"><a href="../shop_profile.html">店舗基本情報設定</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">出品ステータス</li>
+                                    </ol>
+                                </nav>
+                                <p>更新日：2021年9月30日</p>  
+                            </div>
+                        </footer>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
