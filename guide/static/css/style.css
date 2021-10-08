@@ -1,0 +1,368 @@
+﻿html{
+  height: 100%;
+}
+.content-descripiton{
+  color:#E5025C;
+  font-size: 16px;
+  font-weight:bold;
+  border-left: solid 5px #E5025C;
+  padding-left: 25px;
+  margin-top: 20px;
+}
+
+.content-descripiton01{
+  color:#E5025C;
+  font-size: 16px;
+  font-weight:bold;
+  margin-top: 20px;
+}
+
+
+.contents-notes{
+  margin:0 5%;
+}
+
+.content-img{
+  text-align: center;
+}
+
+
+.img-fluid{
+  margin: 20px 0 20px 0;
+}
+
+.content-title{
+  text-align: left;
+  font-weight:bold;
+  margin: 30px 0;
+  background-color:#EBF3FE;
+  padding: 15px;
+}
+
+.wrong-title{
+  text-align: left;
+  font-weight:bold;
+  margin: 30px 0;
+  background-color:#ffe5ef;
+  padding: 15px;
+}
+.wrong-text{
+  color: #E5025C;
+}
+
+.third-link{
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.content-span{
+  margin-left: 40px;
+}
+
+a {
+  color: #337dde;
+}
+
+.linked{
+  font-weight:bold;
+  color: #E5025C;
+}
+
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;} 
+a:hover {
+  text-decoration:underline;
+  color: #E5025C;
+}  
+a:active {
+  text-decoration:underline;
+  color: #337dde;
+}
+
+.sign-1 {
+  position: absolute;
+  padding-top: 2px;
+  font-style: normal;
+  color: #fff;
+  background: #337dde;
+  margin: 0 8px 0 0;
+  padding: 0;
+  height: auto;
+  min-width: 25px;
+  height: 25px;
+  background-position: -100px -97px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer{
+  color:#888888;
+  position: absolute;
+  margin: 60px 0 50px 30px;
+}
+
+
+#scroll-up {
+  position: fixed;
+  bottom: -60px;
+  right: 10%;
+}
+
+#scroll-up a {
+  width: 40px;
+  padding: 24px 0 3px 0;
+  background: #0063bf;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  display: block;
+  text-decoration: none;
+}
+
+#scroll-up a::before {
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  left: calc(50% - 6px);
+  color: #fff;
+  content: 'v';
+  font-size: 1.5rem;
+  font-weight: normal;
+  -webkit-transform: rotate(180deg) scaleX(1.7);
+  transform: rotate(180deg) scaleX(1.7);
+}
+
+
+
+
+
+
+/* tdmc-breadcrumb */
+
+.tdmc-breadcrumb {
+  margin: 20px 0;
+  text-align: left;
+  font-size: 1.6rem;
+
+}
+
+.tdmc-breadcrumb .header::before {
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  width: 42px;
+  height: 20px;
+  content: "";
+  padding: 0 8px 0 0;
+  background: url(https://c.ap6.content.force.com/servlet/servlet.ImageServer?id=0150K0000080cxW&oid=00D280000020VxK&lastMod=1540171098000) no-repeat;
+  background-position: -135px -5px;
+}
+
+.tdmc-breadcrumb ol {
+  display: table;
+  width: 97%;
+  margin: 10px 0 0 0;
+  list-style: none;
+  letter-spacing: -0.4em;
+  font-size: 0.8rem;
+}
+
+.tdmc-breadcrumb ol li {
+  display: table-cell;
+  position: relative;
+  width: 20%;
+  height: 46px;
+  letter-spacing: normal;
+  line-height: 1.4;
+  padding: 5px 10px 5px 25px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #ababab;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.tdmc-breadcrumb ol li::before {
+  content: "";
+  border-top: 23px solid transparent;
+  border-bottom: 23px solid transparent;
+  border-left: 14px solid #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.tdmc-breadcrumb ol li::after {
+  content: "";
+  border-top: 23px solid transparent;
+  border-bottom: 23px solid transparent;
+  border-left: 14px solid #ababab;
+  position: absolute;
+  right: -14px;
+  top: 0;
+  z-index: 3;
+}
+
+.tdmc-breadcrumb ol.expand li {
+  height: 64px;
+}
+
+.tdmc-breadcrumb ol.expand li::before,
+.tdmc-breadcrumb ol.expand li::after {
+  border-top-width: 32px;
+  border-bottom-width: 32px;
+}
+
+.tdmc-breadcrumb ol li.step-1 {
+  background: #686868;
+  color: #fff;
+}
+
+.tdmc-breadcrumb ol li.step-1::after {
+  border-left: 14px solid #686868;
+}
+
+.tdmc-breadcrumb ol li.step-2 {
+  left: 2px;
+  background: #828282;
+  color: #fff;
+}
+
+.tdmc-breadcrumb ol li.step-2::after {
+  border-left: 14px solid #828282;
+}
+
+.tdmc-breadcrumb ol li.step-3,
+.tdmc-breadcrumb ol li.step-4 {
+  background: #ebebeb;
+}
+
+.tdmc-breadcrumb ol li.step-3::after,
+.tdmc-breadcrumb ol li.step-4::after {
+  border-left: 14px solid #ebebeb;
+}
+
+.tdmc-breadcrumb ol li.step-3 {
+  left: 4px;
+}
+
+.tdmc-breadcrumb ol li.step-4 {
+  left: 6px;
+}
+
+.tdmc-breadcrumb ol li.last-step {
+  left: 8px;
+  background: #337dde;
+  color: #fff;
+}
+
+.tdmc-breadcrumb ol.element2 li.last-step {
+  left: 2px;
+}
+
+.tdmc-breadcrumb ol.element3 li.last-step {
+  left: 4px;
+}
+
+.tdmc-breadcrumb ol.element4 li.last-step {
+  left: 6px;
+}
+
+.tdmc-breadcrumb ol li.last-step:after {
+  border-left: 14px solid #337dde;
+}
+
+.tdmc-breadcrumb ol li:first-child {
+  padding-left: 45px;
+}
+
+.tdmc-breadcrumb ol li:first-child:before {
+  display: none;
+}
+
+.tdmc-breadcrumb ol li.last-child a {
+  padding-right: 10px;
+}
+
+.tdmc-breadcrumb ol li.last-child a:after {
+  display: none;
+}
+
+.tdmc-breadcrumb ol li.active a,
+.tdmc-breadcrumb ol li a:hover {
+  background: #004696;
+}
+
+.tdmc-breadcrumb ol li.active a:after,
+.tdmc-breadcrumb ol li a:hover:after {
+  border-left-color: #004696;
+}
+
+.tdmc-breadcrumb ol li.step-1::before {
+  display: inline-block;
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  content: "";
+  width: 18px;
+  height: 18px;
+  border: none;
+  background-image: url(../images/servlet.png);
+  background-repeat: no-repeat;
+}
+
+.tdmc-breadcrumb ol.expand li.step-1::before {
+  top: 23px;
+}
+
+.tdmc-breadcrumb ol li.icon-01::before {
+  background-position: -5px -5px;
+}
+
+.tdmc-breadcrumb ol li.icon-02::before {
+  background-position: -33px -5px;
+}
+
+.tdmc-breadcrumb ol li.icon-03::before {
+  background-position: -5px -33px;
+}
+
+.tdmc-breadcrumb ol li.icon-04::before {
+  background-position: -33px -33px;
+}
+
+.tdmc-breadcrumb ol li.icon-05::before {
+  background-position: -61px -5px;
+}
+
+.tdmc-breadcrumb ol li.icon-06::before {
+  background-position: -61px -33px;
+}
+
+.tdmc-breadcrumb ol li.icon-07::before {
+  background-position: -5px -61px;
+}
+
+.tdmc-breadcrumb ol li.icon-none::before {
+  display: none;
+}
+
+.tdmc-breadcrumb ol li.icon-none {
+  padding-left: 18px;
+}
+
+.floatR .tdmc-breadcrumb {
+  font-size: 1.4rem;
+}
+
+.tdmc-breadcrumb ol.element4 li.last-step {
+  left: 6px;
+}
